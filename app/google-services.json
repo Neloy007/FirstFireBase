@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "409575829718",
+    "project_id": "fir-signup-5b926",
+    "storage_bucket": "fir-signup-5b926.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:409575829718:android:ea14969d0e340e07b11977",
+        "android_client_info": {
+          "package_name": "com.example.firebasesignup"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKWlgQ2-iUN2Hm4NZzgw9p88k78oNwrCw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
