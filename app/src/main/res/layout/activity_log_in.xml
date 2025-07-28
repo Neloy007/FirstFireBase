@@ -49,12 +49,12 @@
             </de.hdodenhof.circleimageview.CircleImageView>
 
             <com.google.android.material.textfield.TextInputLayout
-                android:id="@+id/username_layout"
+                android:id="@+id/emailId_layout"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="20dp"
 
-                android:hint="Username"
+                android:hint="Email"
                 android:textColorHint="@color/white"
                 app:boxStrokeColor="@color/white"
                 app:boxStrokeWidth="2dp"
@@ -64,7 +64,7 @@
                 app:layout_constraintEnd_toEndOf="parent">
 
                 <com.google.android.material.textfield.TextInputEditText
-                    android:id="@+id/username_input_login"
+                    android:id="@+id/emailId_input"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:inputType="textEmailAddress" />
@@ -83,7 +83,7 @@
                 android:layout_marginTop="20dp"
                 app:endIconMode="password_toggle"
                 app:endIconTint="@color/white"
-                app:layout_constraintTop_toBottomOf="@id/username_layout"
+                app:layout_constraintTop_toBottomOf="@id/emailId_layout"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintEnd_toEndOf="parent">
 

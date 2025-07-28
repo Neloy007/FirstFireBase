@@ -32,15 +32,15 @@ class LogIn : AppCompatActivity() {
     }
 
     private fun logInUser() {
-        val userName = binding.usernameInputLogin.text.toString().trim()
+        val email = binding.emailIdInput.text.toString().trim()
         val password = binding.passwordInputLogin.text.toString().trim()
 
-        if (userName.isEmpty() || password.isEmpty()){
+        if (email.isEmpty() || password.isEmpty()){
             Toast.makeText(this,"Please enter Username & Password.",Toast.LENGTH_SHORT).show()
             return
         }
 
-        firebaseAuth.signInWithEmailAndPassword(userName,password).addOnCompleteListener { task ->
+        firebaseAuth.signInWithEmailAndPassword(email,password).addOnCompleteListener { task ->
             if (task.isSuccessful){
                 Toast.makeText(this,"Login Successfull",Toast.LENGTH_SHORT).show()
                 startActivity(Intent(this,MainActivity::class.java))
